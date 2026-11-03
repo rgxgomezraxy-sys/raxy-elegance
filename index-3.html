@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raxy Elegance | STYLE • BEAUTY • ELEGANCE</title>
+<style>
+:root{--ink:#29212a;--muted:#756b75;--rose:#a83d68;--pink:#f8eaf0;--cream:#fffaf7;--line:#f0e1e7}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,"Noto Sans Bengali",sans-serif;color:var(--ink);background:var(--cream)}
+header{background:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid var(--line)}
+.nav{max-width:1150px;margin:auto;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.logo{font-family:Georgia,serif;font-size:27px;font-weight:bold;color:var(--rose)}.logo small{display:block;font:11px Arial;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-size:14px}
+.cartbtn,.primary{background:var(--rose);color:white;border:0;border-radius:24px;padding:11px 17px;cursor:pointer;font-weight:bold}
+.hero{max-width:1150px;margin:25px auto;padding:45px 30px;border-radius:22px;background:linear-gradient(100deg,rgba(45,20,36,.78),rgba(45,20,36,.12)),url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1600&q=85') center/cover;min-height:320px;display:flex;align-items:center;color:#fff}
+.hero div{max-width:520px}.hero h1{font: bold 42px Georgia,serif;margin:0 0 12px}.hero p{line-height:1.7}.hero .primary{background:#fff;color:var(--rose);margin-top:8px}
+.wrap{max-width:1150px;margin:30px auto;padding:0 20px}.sectionhead{display:flex;justify-content:space-between;align-items:end;gap:12px;flex-wrap:wrap}.sectionhead h2{font:30px Georgia,serif;margin:0}.sectionhead p{color:var(--muted);margin:7px 0}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.filters button{border:1px solid var(--line);background:#fff;padding:9px 15px;border-radius:22px;cursor:pointer}.filters button.active{background:var(--pink);border-color:#d99ab3;color:var(--rose)}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product{background:#fff;border:1px solid var(--line);border-radius:15px;overflow:hidden}.product img{width:100%;height:250px;object-fit:cover;background:#f5e9ee}.pbody{padding:13px}.tag{font-size:11px;color:var(--rose);background:var(--pink);padding:5px 9px;border-radius:12px}.product h3{font-size:16px;margin:12px 0 7px}.price{font-weight:bold;color:var(--rose);font-size:18px}.old{font-size:12px;color:#999;text-decoration:line-through;margin-left:6px}.product button{width:100%;margin-top:12px}
+.info{background:var(--pink);padding:25px;border-radius:18px;display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:35px 0}.info strong{display:block;margin-bottom:6px}.info span{font-size:13px;color:var(--muted)}
+footer{background:#2e222c;color:white;padding:30px 20px;text-align:center;margin-top:45px}footer p{color:#e6dbe2;font-size:13px}
+.overlay{display:none;position:fixed;inset:0;background:#0008;z-index:10;justify-content:flex-end}.panel{background:#fff;width:min(430px,100%);height:100%;padding:22px;overflow:auto}.paneltop{display:flex;justify-content:space-between;align-items:center}.close{border:0;background:none;font-size:25px;cursor:pointer}.cartitem{display:flex;gap:12px;border-bottom:1px solid var(--line);padding:12px 0}.cartitem img{width:65px;height:75px;object-fit:cover;border-radius:8px}.cartitem p{margin:3px 0}.qty{display:flex;align-items:center;gap:8px;margin-top:5px}.qty button{border:1px solid var(--line);background:white;border-radius:5px;padding:2px 8px}.total{font-size:20px;font-weight:bold;margin:20px 0}.checkout input,.checkout textarea{width:100%;padding:11px;border:1px solid var(--line);border-radius:8px;margin:7px 0;font:inherit}.checkout small{color:var(--muted);line-height:1.5;display:block;margin:8px 0}
+
+.adminwrap{display:none;position:fixed;inset:0;background:#0009;z-index:20;overflow:auto;padding:18px}
+.adminbox{max-width:650px;margin:25px auto;background:#fff;border-radius:18px;padding:22px;box-shadow:0 15px 50px #0003}
+.adminbox h2{margin-top:0}.adminbox label{display:block;font-size:13px;font-weight:bold;margin:10px 0 5px}
+.adminbox input,.adminbox select{width:100%;padding:11px;border:1px solid var(--line);border-radius:8px;font:inherit}
+.adminrow{display:grid;grid-template-columns:1fr 1fr;gap:12px}.adminlist{margin-top:20px}
+.adminproduct{display:flex;align-items:center;gap:10px;border-top:1px solid var(--line);padding:10px 0}
+.adminproduct img{width:55px;height:65px;object-fit:cover;border-radius:7px}
+.adminproduct .details{flex:1;min-width:0}.adminproduct button{border:1px solid var(--line);background:white;border-radius:8px;padding:7px;cursor:pointer}
+.adminnote{font-size:12px;line-height:1.6;color:#756b75;background:#fff6e9;padding:10px;border-radius:8px;margin:12px 0}
+
+@media(max-width:850px){.grid{grid-template-columns:repeat(2,1fr)}nav a{display:none}.hero{margin:14px 12px;min-height:270px}.hero h1{font-size:34px}.info{grid-template-columns:1fr}}
+@media(max-width:420px){.grid{gap:10px}.product img{height:190px}.pbody{padding:10px}.product h3{font-size:14px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo">Raxy Elegance<small>STYLE • BEAUTY • ELEGANCE</small></div><nav><a href="#home">হোম</a><a href="#products">শপ</a><a href="#about">আমাদের সম্পর্কে</a></nav><div style="display:flex;gap:8px;align-items:center"><button class="cartbtn" onclick="openAdmin()" style="background:#6f5263">⚙ Admin</button><button class="cartbtn" onclick="openCart()">🛍 কার্ট (<span id="count">0</span>)</button></div></div></header>
+<section class="hero" id="home"><div><h1>আপনার সৌন্দর্যে নতুন ছোঁয়া</h1><p>পছন্দের শাড়ি ও মেয়েদের পোশাক—সুন্দর স্টাইল, সহজ কেনাকাটা। আপনার পছন্দের কালেকশনটি বেছে নিন।</p><a href="#products"><button class="primary">এখনই শপিং করুন</button></a></div></section>
+<main class="wrap" id="products">
+<div class="sectionhead"><div><h2>আমাদের কালেকশন</h2><p>পছন্দের পোশাক বেছে নিন</p></div><input id="search" placeholder="পণ্য খুঁজুন..." oninput="render()" style="padding:10px 13px;border:1px solid var(--line);border-radius:22px"></div>
+<div class="filters"><button class="active" onclick="setFilter('সব',this)">সব পণ্য</button><button onclick="setFilter('শাড়ি',this)">শাড়ি</button><button onclick="setFilter('থ্রি-পিস',this)">থ্রি-পিস</button><button onclick="setFilter('কুর্তি',this)">কুর্তি</button></div>
+<div class="grid" id="grid"></div>
+<div class="info" id="about"><div><strong>🚚 ডেলিভারি</strong><span>সারা বাংলাদেশে ডেলিভারির ব্যবস্থা করা যাবে।</span></div><div><strong>💳 পেমেন্ট</strong><span>ক্যাশ অন ডেলিভারি বা বিকাশ/নগদ—দোকানের নিয়ম অনুযায়ী।</span></div><div><strong>💬 যোগাযোগ</strong><span>অর্ডার ও পণ্যের বিস্তারিত জানতে আমাদের সঙ্গে যোগাযোগ করুন।</span></div></div>
+</main>
+<footer><div class="logo" style="color:#f3b8ce">Raxy Elegance</div><p>শাড়ি • থ্রি-পিস • কুর্তি • মেয়েদের পোশাক</p><p>© <span id="year"></span> Raxy Elegance. All rights reserved.</p></footer>
+
+<div class="adminwrap" id="adminwrap" onclick="if(event.target===this)closeAdmin()">
+ <section class="adminbox">
+  <div class="paneltop"><h2>Raxy Elegance – Admin</h2><button class="close" onclick="closeAdmin()">×</button></div>
+  <p style="color:var(--muted);font-size:13px">এখান থেকে পণ্যের ছবি, নাম, ক্যাটাগরি ও দাম যোগ বা পরিবর্তন করতে পারবে।</p>
+  <form id="productForm" onsubmit="saveProduct(event)">
+   <input type="hidden" id="editId">
+   <label>পণ্যের নাম</label><input id="adminName" required placeholder="যেমন: Black Georgette Saree">
+   <div class="adminrow"><div><label>ক্যাটাগরি</label><select id="adminCat"><option>শাড়ি</option><option>থ্রি-পিস</option><option>কুর্তি</option></select></div>
+   <div><label>দাম (টাকা)</label><input id="adminPrice" type="number" min="1" required placeholder="1200"></div></div>
+   <label>পণ্যের ছবি</label><input id="adminImage" type="file" accept="image/*">
+   <p id="imageHint" style="font-size:12px;color:var(--muted)">নতুন পণ্যের জন্য ছবি বেছে নাও। ছবি না দিলে ডেমো ছবি ব্যবহার হবে।</p>
+   <div style="display:flex;gap:8px;margin-top:14px"><button class="primary" type="submit" id="saveProductBtn">পণ্য যোগ করো</button><button type="button" onclick="resetProductForm()" style="border:1px solid var(--line);background:white;border-radius:24px;padding:10px 15px">ফর্ম পরিষ্কার</button></div>
+  </form>
+  <div class="adminnote">গুরুত্বপূর্ণ: পণ্যগুলো এই ডিভাইসের এই ব্রাউজারে সেভ হবে। অনলাইনে সবার কাছে পণ্য দেখাতে পরে অনলাইন ডাটাবেস ও নিরাপদ অ্যাডমিন লগইন যুক্ত করতে হবে।</div>
+  <div class="adminlist"><h3>পণ্যের তালিকা</h3><div id="adminProducts"></div></div>
+ </section>
+</div>
+
+<div class="overlay" id="overlay" onclick="if(event.target===this)closeCart()"><div class="panel"><div class="paneltop"><h2>আপনার শপিং কার্ট</h2><button class="close" onclick="closeCart()">×</button></div><div id="cartitems"></div><div class="total" id="total">মোট: ৳০</div><div class="checkout"><h3>অর্ডারের তথ্য</h3><input id="customer" placeholder="আপনার নাম"><input id="phone" placeholder="মোবাইল নম্বর"><textarea id="address" rows="3" placeholder="সম্পূর্ণ ডেলিভারি ঠিকানা"></textarea><small>এটি একটি প্রাথমিক ডেমো। অর্ডার সরাসরি WhatsApp-এ পাঠাতে দোকানের WhatsApp নম্বর যোগ করতে হবে।</small><button class="primary" style="width:100%" onclick="placeOrder()">অর্ডার প্রস্তুত করুন</button><p id="notice" style="font-size:13px;color:var(--rose)"></p></div></div></div>
+<script>
+let products=JSON.parse(localStorage.getItem('raxyEleganceProducts')||'null')||[
+{id:1,name:"প্রিন্টেড জর্জেট শাড়ি",cat:"শাড়ি",price:850,img:"https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80"},
+{id:2,name:"এলিগ্যান্ট শাড়ি",cat:"শাড়ি",price:1200,img:"https://images.unsplash.com/photo-1583391733956-6c78276477e8?auto=format&fit=crop&w=700&q=80"},
+{id:3,name:"মেয়েদের থ্রি-পিস",cat:"থ্রি-পিস",price:1450,img:"https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=700&q=80"},
+{id:4,name:"কটন কুর্তি",cat:"কুর্তি",price:650,img:"https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=700&q=80"},
+{id:5,name:"ফ্লোরাল প্রিন্ট শাড়ি",cat:"শাড়ি",price:990,img:"https://images.unsplash.com/photo-1610189012906-4c5e5f8f8b1b?auto=format&fit=crop&w=700&q=80"},
+{id:6,name:"ক্যাজুয়াল থ্রি-পিস",cat:"থ্রি-পিস",price:1100,img:"https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=700&q=80"},
+{id:7,name:"ডেইলি ওয়্যার কুর্তি",cat:"কুর্তি",price:550,img:"https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=700&q=80"},
+{id:8,name:"পার্টি ওয়্যার শাড়ি",cat:"শাড়ি",price:1850,img:"https://images.unsplash.com/photo-1610030469668-8e9f641aaf5a?auto=format&fit=crop&w=700&q=80"}
+];
+let filter="সব",cart={};
+function render(){let q=document.getElementById('search').value.toLowerCase();let list=products.filter(p=>(filter==="সব"||p.cat===filter)&&(p.name.toLowerCase().includes(q)||p.cat.toLowerCase().includes(q)));document.getElementById('grid').innerHTML=list.map(p=>`<article class="product"><img src="${p.img}" alt="${p.name}" onerror="this.src='https://placehold.co/600x700/f8eaf0/a83d68?text=Raxy+Fashion'"><div class="pbody"><span class="tag">${p.cat}</span><h3>${p.name}</h3><div class="price">৳${p.price.toLocaleString('en-BD')} <span class="old">নমুনা মূল্য</span></div><button class="primary" onclick="add(${p.id})">কার্টে যোগ করুন</button></div></article>`).join('')||'<p>কোনো পণ্য পাওয়া যায়নি।</p>'}
+function setFilter(f,b){filter=f;document.querySelectorAll('.filters button').forEach(x=>x.classList.remove('active'));b.classList.add('active');render()}
+function add(id){cart[id]=(cart[id]||0)+1;updateCart()}
+function updateCart(){let n=Object.values(cart).reduce((a,b)=>a+b,0);document.getElementById('count').textContent=n;let entries=Object.entries(cart);document.getElementById('cartitems').innerHTML=entries.length?entries.map(([id,q])=>{let p=products.find(x=>x.id==id);return `<div class="cartitem"><img src="${p.img}"><div style="flex:1"><strong>${p.name}</strong><p>৳${p.price.toLocaleString('en-BD')}</p><div class="qty"><button onclick="change(${id},-1)">−</button>${q}<button onclick="change(${id},1)">+</button></div></div></div>`}).join(''):'<p>আপনার কার্ট এখনো খালি।</p>';let total=entries.reduce((s,[id,q])=>s+products.find(p=>p.id==id).price*q,0);document.getElementById('total').textContent='মোট: ৳'+total.toLocaleString('en-BD')}
+function change(id,d){cart[id]=(cart[id]||0)+d;if(cart[id]<=0)delete cart[id];updateCart()}
+function openCart(){document.getElementById('overlay').style.display='flex';updateCart()}function closeCart(){document.getElementById('overlay').style.display='none'}
+function placeOrder(){let name=document.getElementById('customer').value.trim(),phone=document.getElementById('phone').value.trim(),address=document.getElementById('address').value.trim();if(!Object.keys(cart).length){document.getElementById('notice').textContent='আগে কার্টে পণ্য যোগ করুন।';return}if(!name||!phone||!address){document.getElementById('notice').textContent='নাম, মোবাইল নম্বর ও ঠিকানা পূরণ করুন।';return}let lines=Object.entries(cart).map(([id,q])=>{let p=products.find(x=>x.id==id);return `${p.name} x ${q} = ৳${p.price*q}`});let total=Object.entries(cart).reduce((s,[id,q])=>s+products.find(p=>p.id==id).price*q,0);let summary=`Raxy Elegance অর্ডার\\nনাম: ${name}\\nফোন: ${phone}\\nঠিকানা: ${address}\\n${lines.join('\\n')}\\nমোট: ৳${total}`;document.getElementById('notice').textContent='অর্ডারের বিবরণ তৈরি হয়েছে। নিচের লেখা কপি করে আপনার ক্রেতার সঙ্গে যোগাযোগের মাধ্যমে অর্ডার নিশ্চিত করুন।';let old=document.getElementById('ordercopy');if(old)old.remove();let ta=document.createElement('textarea');ta.id='ordercopy';ta.value=summary;ta.rows=7;document.querySelector('.checkout').appendChild(ta);let btn=document.createElement('button');btn.className='primary';btn.style.width='100%';btn.textContent='অর্ডারের বিবরণ কপি করুন';btn.onclick=()=>{ta.select();document.execCommand('copy');btn.textContent='কপি হয়েছে'};document.querySelector('.checkout').appendChild(btn)}
+
+function persistProducts(){localStorage.setItem('raxyEleganceProducts',JSON.stringify(products))}
+function openAdmin(){document.getElementById('adminwrap').style.display='block';renderAdminProducts()}
+function closeAdmin(){document.getElementById('adminwrap').style.display='none'}
+function resetProductForm(){document.getElementById('productForm').reset();document.getElementById('editId').value='';document.getElementById('saveProductBtn').textContent='পণ্য যোগ করো';document.getElementById('imageHint').textContent='নতুন পণ্যের জন্য ছবি বেছে নাও। ছবি না দিলে ডেমো ছবি ব্যবহার হবে।'}
+function saveProduct(e){
+ e.preventDefault();
+ const id=document.getElementById('editId').value;
+ const name=document.getElementById('adminName').value.trim();
+ const cat=document.getElementById('adminCat').value;
+ const price=Number(document.getElementById('adminPrice').value);
+ const file=document.getElementById('adminImage').files[0];
+ const existing=id?products.find(p=>p.id===Number(id)):null;
+ const finish=(img)=>{
+  if(existing){existing.name=name;existing.cat=cat;existing.price=price;if(img)existing.img=img}
+  else{products.unshift({id:Date.now(),name,cat,price,img:img||'https://placehold.co/600x700/f8eaf0/a83d68?text=Raxy+Elegance'})}
+  persistProducts();render();renderAdminProducts();resetProductForm();
+ };
+ if(file){const reader=new FileReader();reader.onload=()=>finish(reader.result);reader.readAsDataURL(file)}else finish(null);
+}
+function renderAdminProducts(){
+ const box=document.getElementById('adminProducts');
+ box.innerHTML=products.map(p=>`<div class="adminproduct"><img src="${p.img}" alt=""><div class="details"><strong>${p.name}</strong><div style="font-size:12px;color:#756b75">${p.cat} · ৳${p.price}</div></div><button onclick="editProduct(${p.id})">Edit</button><button onclick="deleteProduct(${p.id})">মুছুন</button></div>`).join('')||'<p>এখনো কোনো পণ্য নেই।</p>';
+}
+function editProduct(id){const p=products.find(x=>x.id===id);if(!p)return;document.getElementById('editId').value=p.id;document.getElementById('adminName').value=p.name;document.getElementById('adminCat').value=p.cat;document.getElementById('adminPrice').value=p.price;document.getElementById('saveProductBtn').textContent='পরিবর্তন সেভ করো';document.getElementById('imageHint').textContent='ছবি পরিবর্তন না করতে চাইলে ফাঁকা রাখো.';document.querySelector('.adminbox').scrollTo({top:0,behavior:'smooth'})}
+function deleteProduct(id){if(!confirm('এই পণ্যটি মুছে ফেলতে চাও?'))return;products=products.filter(p=>p.id!==id);delete cart[id];persistProducts();render();renderAdminProducts();updateCart()}
+
+document.getElementById('year').textContent=new Date().getFullYear();render();updateCart();
+</script>
+</body></html>
